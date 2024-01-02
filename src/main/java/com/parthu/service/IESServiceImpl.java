@@ -41,4 +41,10 @@ public class IESServiceImpl implements IESService {
 		return findByName;
 	}
 
+	@Override
+	public IESEntity iesUpdateRecord(IESEntity update) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
