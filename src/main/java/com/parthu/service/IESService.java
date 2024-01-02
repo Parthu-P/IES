@@ -9,4 +9,6 @@ public interface IESService {
 	public IESEntity iesRecord(IESEntity iesrecord);
 	public IESEntity iesGetRecord(Integer id);
 	public List<IESEntity> iesGetRecordBasedOnName(String value);
+	public IESEntity iesUpdateRecord(IESEntity update);
+	
 }
